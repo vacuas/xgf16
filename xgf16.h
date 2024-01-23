@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: MIT
 // 2024 J.A. Leegwater, https://github.com/vacuas/xgf16
 
-#include <stdint.h>
 #ifndef XGF16_H
 #define XGF16_H
+
+#include <stdint.h>
 
 #ifndef XGF16_N
 #define XGF16_N 4
 #endif
 
 #define XGF16_N2 (XGF16_N * XGF16_N)
-
 typedef uint32_t xgf16_matrix_t[XGF16_N2];
 
 /**
